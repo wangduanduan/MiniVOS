@@ -4,3 +4,4 @@ log
 dist/opensips.cfg
 pg
 .fuse_hidden*
+.DS_Store
