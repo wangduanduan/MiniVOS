@@ -2,3 +2,5 @@
 *.local.*
 log
 dist/opensips.cfg
+pg
+.fuse_hidden*

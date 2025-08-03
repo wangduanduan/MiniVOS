@@ -6,9 +6,11 @@ include env.default.mk
 
 include m4_define_macros.mk
 include config.mk
+include db-tool.mk
 
 oci=podman
 app=minivos
+db_name=minivos
 
 dev: cfg
 	-$(oci) rm -f $(app)
@@ -31,3 +33,4 @@ fp:
 	git add -A;
 	git commit -am "wip";
 	git push;
+
