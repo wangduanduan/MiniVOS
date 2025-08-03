@@ -42,5 +42,5 @@ loadmodule "proto_udp.so"
 loadmodule "proto_tcp.so"
 loadmodule "proto_ws.so"
 
-loadmodule "rtpengine.so"
-modparam("rtpengine", "rtpengine_sock", "ENV_RTP_SOCKET")
+#loadmodule "rtpengine.so"
+#modparam("rtpengine", "rtpengine_sock", "ENV_RTP_SOCKET")
