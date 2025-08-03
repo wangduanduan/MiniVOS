@@ -1,0 +1,1 @@
+opensips_image=wangduanduan/opensips:3.5.6
