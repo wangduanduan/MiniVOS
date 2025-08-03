@@ -1,5 +1,6 @@
 m4_define_macros += -D minivos_version="$(shell cat VERSION)"
 m4_define_macros += -D minivos_build_time="$(shell date)"
+
 m4_define_macros += -D ENV_LISTEN_IP="$(ENV_LISTEN_IP)"
 m4_define_macros += -D ENV_PUBLIC_IP="$(ENV_PUBLIC_IP)"
 m4_define_macros += -D ENV_UDP_PORT="$(ENV_UDP_PORT)"

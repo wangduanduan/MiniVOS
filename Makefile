@@ -10,5 +10,7 @@ include config.mk
 dev:
 	m4 -P $(m4_define_macros) main.m4 > dist/opensips.cfg
 
-test:
-	echo $(m4_define_flagg)
+fp:
+	git add -A;
+	git commit -am "wip";
+	git push;
